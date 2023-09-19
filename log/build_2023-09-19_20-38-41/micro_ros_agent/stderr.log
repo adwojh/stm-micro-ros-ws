@@ -1,0 +1,23 @@
+[01m[K/home/adwitiya/micro-ros/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:[m[K In member function ‘[01m[Kvoid uros::agent::graph_manager::GraphManager::add_datawriter(const eprosima::fastrtps::rtps::GUID_t&, const string&, const string&, const eprosima::fastrtps::rtps::GUID_t&, const eprosima::fastdds::dds::DataWriterQos&)[m[K’:
+[01m[K/home/adwitiya/micro-ros/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:378:85:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krmw_dds_common::GraphCache::add_entity(const rmw_gid_t&, const string&, const string&, rcutils_hash_map_t, const rmw_gid_t&, const rmw_qos_profile_t&, bool)[m[K’
+  378 |         rcutils_get_zero_initialized_hash_map(), participant_gid, qos_profile, false[01;31m[K)[m[K;
+      |                                                                                     [01;31m[K^[m[K
+In file included from [01m[K/home/adwitiya/micro-ros/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/graph_manager/graph_manager.hpp:44[m[K,
+                 from [01m[K/home/adwitiya/micro-ros/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:18[m[K:
+[01m[K/home/adwitiya/ros2_humble/install/rmw_dds_common/include/rmw_dds_common/rmw_dds_common/graph_cache.hpp:132:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rmw_dds_common::GraphCache::add_entity(const rmw_gid_t&, const string&, const string&, const rmw_gid_t&, const rmw_qos_profile_t&, bool)[m[K’
+  132 |   [01;36m[Kadd_entity[m[K(
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/adwitiya/ros2_humble/install/rmw_dds_common/include/rmw_dds_common/rmw_dds_common/graph_cache.hpp:132:3:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 7 provided
+[01m[K/home/adwitiya/micro-ros/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:[m[K In member function ‘[01m[Kvoid uros::agent::graph_manager::GraphManager::add_datareader(const eprosima::fastrtps::rtps::GUID_t&, const string&, const string&, const eprosima::fastrtps::rtps::GUID_t&, const eprosima::fastdds::dds::DataReaderQos&)[m[K’:
+[01m[K/home/adwitiya/micro-ros/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:420:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krmw_dds_common::GraphCache::add_entity(const rmw_gid_t&, const string&, const string&, rcutils_hash_map_t, const rmw_gid_t&, const rmw_qos_profile_t&, bool)[m[K’
+  420 |         rcutils_get_zero_initialized_hash_map(), participant_gid, qos_profile, true[01;31m[K)[m[K;
+      |                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/adwitiya/micro-ros/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/graph_manager/graph_manager.hpp:44[m[K,
+                 from [01m[K/home/adwitiya/micro-ros/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:18[m[K:
+[01m[K/home/adwitiya/ros2_humble/install/rmw_dds_common/include/rmw_dds_common/rmw_dds_common/graph_cache.hpp:132:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rmw_dds_common::GraphCache::add_entity(const rmw_gid_t&, const string&, const string&, const rmw_gid_t&, const rmw_qos_profile_t&, bool)[m[K’
+  132 |   [01;36m[Kadd_entity[m[K(
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/adwitiya/ros2_humble/install/rmw_dds_common/include/rmw_dds_common/rmw_dds_common/graph_cache.hpp:132:3:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 7 provided
+make[2]: *** [CMakeFiles/micro_ros_agent.dir/build.make:89: CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/micro_ros_agent.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,38 @@
+Cloning into 'xrceagent'...
+Switched to a new branch 'ros2'
+Cloning into 'spdlog'...
+Note: switching to 'v1.9.2'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at eb322062 Bump version to 1.9.2
+[01m[K/home/adwitiya/micro-ros/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:[m[K In member function ‘[01m[Kvoid uros::agent::graph_manager::GraphManager::add_datawriter(const eprosima::fastrtps::rtps::GUID_t&, const string&, const string&, const eprosima::fastrtps::rtps::GUID_t&, const eprosima::fastdds::dds::DataWriterQos&)[m[K’:
+[01m[K/home/adwitiya/micro-ros/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:378:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krosidl_get_zero_initialized_type_hash[m[K’ was not declared in this scope; did you mean ‘[01m[Krcutils_get_zero_initialized_hash_map[m[K’?
+  378 |         [01;31m[Krosidl_get_zero_initialized_type_hash[m[K(), participant_gid, qos_profile, false);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Krcutils_get_zero_initialized_hash_map[m[K
+[01m[K/home/adwitiya/micro-ros/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:[m[K In member function ‘[01m[Kvoid uros::agent::graph_manager::GraphManager::add_datareader(const eprosima::fastrtps::rtps::GUID_t&, const string&, const string&, const eprosima::fastrtps::rtps::GUID_t&, const eprosima::fastdds::dds::DataReaderQos&)[m[K’:
+[01m[K/home/adwitiya/micro-ros/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:420:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krosidl_get_zero_initialized_type_hash[m[K’ was not declared in this scope; did you mean ‘[01m[Krcutils_get_zero_initialized_hash_map[m[K’?
+  420 |         [01;31m[Krosidl_get_zero_initialized_type_hash[m[K(), participant_gid, qos_profile, true);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Krcutils_get_zero_initialized_hash_map[m[K
+make[5]: *** [CMakeFiles/micro_ros_agent.dir/build.make:89: CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o] Error 1
+make[5]: *** Waiting for unfinished jobs....
+make[4]: *** [CMakeFiles/Makefile2:78: CMakeFiles/micro_ros_agent.dir/all] Error 2
+make[3]: *** [Makefile:141: all] Error 2
+make[2]: *** [CMakeFiles/micro_ros_agent.dir/build.make:113: micro_ros_agent-prefix/src/micro_ros_agent-stamp/micro_ros_agent-build] Error 2
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/micro_ros_agent.dir/all] Error 2
+make: *** [Makefile:84: all] Error 2

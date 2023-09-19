@@ -1,0 +1,41 @@
+-- Found ament_cmake: 1.3.4 (/home/adwitiya/ros2_humble/install/ament_cmake/share/ament_cmake/cmake)
+-- Found rosidl_cmake: 3.1.4 (/home/adwitiya/ros2_humble/install/rosidl_cmake/share/rosidl_cmake/cmake)
+-- Found rosidl_adapter: 3.1.4 (/home/adwitiya/ros2_humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found fastrtps_cmake_module: 2.2.0 (/home/adwitiya/ros2_humble/install/fastrtps_cmake_module/share/fastrtps_cmake_module/cmake)
+-- Found rmw_dds_common: 1.6.0 (/home/adwitiya/ros2_humble/install/rmw_dds_common/share/rmw_dds_common/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/home/adwitiya/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/home/adwitiya/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_fastrtps_shared_cpp: 6.2.2 (/home/adwitiya/ros2_humble/install/rmw_fastrtps_shared_cpp/share/rmw_fastrtps_shared_cpp/cmake)
+-- Found ament_lint_auto: 0.12.6 (/home/adwitiya/ros2_humble/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found ament_cmake_gtest: 1.3.4 (/home/adwitiya/ros2_humble/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found micro_ros_msgs: 4.0.0 (/home/adwitiya/micro-ros/agent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent
+[35m[1mScanning dependencies of target micro_ros_agent[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable micro_ros_agent[0m
+[100%] Built target micro_ros_agent
+-- Install configuration: ""
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+-- Set runtime path of "/home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/micro_ros_agent/launch
+-- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py

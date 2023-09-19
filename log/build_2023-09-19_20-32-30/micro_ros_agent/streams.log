@@ -1,0 +1,588 @@
+[0.077s] Invoking command in '/home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/adwitiya/micro-ros/agent_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adwitiya/micro-ros/agent_ws/install/micro_ros_msgs:/home/adwitiya/micro-ros/agent_ws/install/micro_ros_setup:/home/adwitiya/ros2_humble/install/rosbag2_storage_mcap:/home/adwitiya/ros2_humble/install/rosbag2:/home/adwitiya/ros2_humble/install/rosbag2_compression_zstd:/home/adwitiya/ros2_humble/install/mcap_vendor:/home/adwitiya/ros2_humble/install/zstd_vendor:/home/adwitiya/ros2_humble/install/rviz_visual_testing_framework:/home/adwitiya/ros2_humble/install/rviz2:/home/adwitiya/ros2_humble/install/rviz_default_plugins:/home/adwitiya/ros2_humble/install/rviz_common:/home/adwitiya/ros2_humble/install/rosbag2_py:/home/adwitiya/ros2_humble/install/rosbag2_transport:/home/adwitiya/ros2_humble/install/rosbag2_performance_benchmarking:/home/adwitiya/ros2_humble/install/rosbag2_compression:/home/adwitiya/ros2_humble/install/rosbag2_cpp:/home/adwitiya/ros2_humble/install/rosbag2_storage_default_plugins:/home/adwitiya/ros2_humble/install/rosbag2_storage:/home/adwitiya/ros2_humble/install/image_common:/home/adwitiya/ros2_humble/install/camera_info_manager:/home/adwitiya/ros2_humble/install/camera_calibration_parsers:/home/adwitiya/ros2_humble/install/yaml_cpp_vendor:/home/adwitiya/ros2_humble/install/interactive_markers:/home/adwitiya/ros2_humble/install/common_interfaces:/home/adwitiya/ros2_humble/install/visualization_msgs:/home/adwitiya/ros2_humble/install/dummy_robot_bringup:/home/adwitiya/ros2_humble/install/robot_state_publisher:/home/adwitiya/ros2_humble/install/kdl_parser:/home/adwitiya/ros2_humble/install/urdf:/home/adwitiya/ros2_humble/install/urdfdom:/home/adwitiya/ros2_humble/install/urdf_parser_plugin:/home/adwitiya/ros2_humble/install/urdfdom_headers:/home/adwitiya/ros2_humble/install/turtlesim:/home/adwitiya/ros2_humble/install/geometry2:/home/adwitiya/ros2_humble/install/tf2_sensor_msgs:/home/adwitiya/ros2_humble/install/test_tf2:/home/adwitiya/ros2_humble/install/tf2_kdl:/home/adwitiya/ros2_humble/install/tf2_geometry_msgs:/home/adwitiya/ros2_humble/install/tf2_eigen:/home/adwitiya/ros2_humble/install/tf2_bullet:/home/adwitiya/ros2_humble/install/tf2_ros:/home/adwitiya/ros2_humble/install/tf2_py:/home/adwitiya/ros2_humble/install/tf2_msgs:/home/adwitiya/ros2_humble/install/test_msgs:/home/adwitiya/ros2_humble/install/sros2_cmake:/home/adwitiya/ros2_humble/install/ros2cli_common_extensions:/home/adwitiya/ros2_humble/install/rqt_py_common:/home/adwitiya/ros2_humble/install/ros_testing:/home/adwitiya/ros2_humble/install/ros2cli_test_interfaces:/home/adwitiya/ros2_humble/install/quality_of_service_demo_cpp:/home/adwitiya/ros2_humble/install/image_transport:/home/adwitiya/ros2_humble/install/message_filters:/home/adwitiya/ros2_humble/install/demo_nodes_cpp:/home/adwitiya/ros2_humble/install/composition:/home/adwitiya/ros2_humble/install/laser_geometry:/home/adwitiya/ros2_humble/install/rclpy:/home/adwitiya/ros2_humble/install/examples_rclcpp_minimal_action_server:/home/adwitiya/ros2_humble/install/examples_rclcpp_minimal_action_client:/home/adwitiya/ros2_humble/install/action_tutorials_cpp:/home/adwitiya/ros2_humble/install/rclcpp_action:/home/adwitiya/ros2_humble/install/rcl_action:/home/adwitiya/ros2_humble/install/examples_rclcpp_wait_set:/home/adwitiya/ros2_humble/install/examples_rclcpp_minimal_service:/home/adwitiya/ros2_humble/install/examples_rclcpp_minimal_client:/home/adwitiya/ros2_humble/install/examples_rclcpp_async_client:/home/adwitiya/ros2_humble/install/example_interfaces:/home/adwitiya/ros2_humble/install/action_tutorials_interfaces:/home/adwitiya/ros2_humble/install/action_msgs:/home/adwitiya/ros2_humble/install/unique_identifier_msgs:/home/adwitiya/ros2_humble/install/ament_lint_common:/home/adwitiya/ros2_humble/install/ament_cmake_uncrustify:/home/adwitiya/ros2_humble/install/uncrustify_vendor:/home/adwitiya/ros2_humble/install/trajectory_msgs:/home/adwitiya/ros2_humble/install/topic_statistics_demo:/home/adwitiya/ros2_humble/install/pendulum_control:/home/adwitiya/ros2_humble/install/tlsf_cpp:/home/adwitiya/ros2_humble/install/test_tracetools:/home/adwitiya/ros2_humble/install/rqt_gui_cpp:/home/adwitiya/ros2_humble/install/rosbag2_test_common:/home/adwitiya/ros2_humble/install/ros2lifecycle_test_fixtures:/home/adwitiya/ros2_humble/install/lifecycle:/home/adwitiya/ros2_humble/install/rclcpp_lifecycle:/home/adwitiya/ros2_humble/install/logging_demo:/home/adwitiya/ros2_humble/install/image_tools:/home/adwitiya/ros2_humble/install/examples_rclcpp_minimal_subscriber:/home/adwitiya/ros2_humble/install/examples_rclcpp_minimal_composition:/home/adwitiya/ros2_humble/install/demo_nodes_cpp_native:/home/adwitiya/ros2_humble/install/rclcpp_components:/home/adwitiya/ros2_humble/install/intra_process_demo:/home/adwitiya/ros2_humble/install/examples_rclcpp_multithreaded_executor:/home/adwitiya/ros2_humble/install/examples_rclcpp_minimal_timer:/home/adwitiya/ros2_humble/install/examples_rclcpp_minimal_publisher:/home/adwitiya/ros2_humble/install/examples_rclcpp_cbg_executor:/home/adwitiya/ros2_humble/install/dummy_sensors:/home/adwitiya/ros2_humble/install/dummy_map_server:/home/adwitiya/ros2_humble/install/rclcpp:/home/adwitiya/ros2_humble/install/rcl_lifecycle:/home/adwitiya/ros2_humble/install/libstatistics_collector:/home/adwitiya/ros2_humble/install/rcl:/home/adwitiya/ros2_humble/install/rmw_implementation:/home/adwitiya/ros2_humble/install/rmw_fastrtps_dynamic_cpp:/home/adwitiya/ros2_humble/install/rmw_fastrtps_cpp:/home/adwitiya/ros2_humble/install/rmw_fastrtps_shared_cpp:/home/adwitiya/ros2_humble/install/rmw_cyclonedds_cpp:/home/adwitiya/ros2_humble/install/tracetools:/home/adwitiya/ros2_humble/install/tlsf:/home/adwitiya/ros2_humble/install/tinyxml_vendor:/home/adwitiya/ros2_humble/install/qt_gui_core:/home/adwitiya/ros2_humble/install/qt_gui_cpp:/home/adwitiya/ros2_humble/install/pluginlib:/home/adwitiya/ros2_humble/install/tinyxml2_vendor:/home/adwitiya/ros2_humble/install/tf2_eigen_kdl:/home/adwitiya/ros2_humble/install/tf2:/home/adwitiya/ros2_humble/install/test_security:/home/adwitiya/ros2_humble/install/test_rmw_implementation:/home/adwitiya/ros2_humble/install/test_rclcpp:/home/adwitiya/ros2_humble/install/test_quality_of_service:/home/adwitiya/ros2_humble/install/test_launch_testing:/home/adwitiya/ros2_humble/install/test_interface_files:/home/adwitiya/ros2_humble/install/test_communication:/home/adwitiya/ros2_humble/install/test_cli_remapping:/home/adwitiya/ros2_humble/install/test_cli:/home/adwitiya/ros2_humble/install/qt_gui_app:/home/adwitiya/ros2_humble/install/qt_gui:/home/adwitiya/ros2_humble/install/tango_icons_vendor:/home/adwitiya/ros2_humble/install/stereo_msgs:/home/adwitiya/ros2_humble/install/std_srvs:/home/adwitiya/ros2_humble/install/shape_msgs:/home/adwitiya/ros2_humble/install/map_msgs:/home/adwitiya/ros2_humble/install/sensor_msgs:/home/adwitiya/ros2_humble/install/nav_msgs:/home/adwitiya/ros2_humble/install/diagnostic_msgs:/home/adwitiya/ros2_humble/install/geometry_msgs:/home/adwitiya/ros2_humble/install/actionlib_msgs:/home/adwitiya/ros2_humble/install/std_msgs:/home/adwitiya/ros2_humble/install/statistics_msgs:/home/adwitiya/ros2_humble/install/sqlite3_vendor:/home/adwitiya/ros2_humble/install/rcl_logging_spdlog:/home/adwitiya/ros2_humble/install/spdlog_vendor:/home/adwitiya/ros2_humble/install/shared_queues_vendor:/home/adwitiya/ros2_humble/install/rviz_rendering_tests:/home/adwitiya/ros2_humble/install/rviz_rendering:/home/adwitiya/ros2_humble/install/rviz_ogre_vendor:/home/adwitiya/ros2_humble/install/rviz_assimp_vendor:/home/adwitiya/ros2_humble/install/rttest:/home/adwitiya/ros2_humble/install/rmw_connextddsmicro:/home/adwitiya/ros2_humble/install/rmw_connextdds:/home/adwitiya/ros2_humble/install/rmw_connextdds_common:/home/adwitiya/ros2_humble/install/rti_connext_dds_cmake_module:/home/adwitiya/ros2_humble/install/rosgraph_msgs:/home/adwitiya/ros2_humble/install/rosbag2_interfaces:/home/adwitiya/ros2_humble/install/rmw_dds_common:/home/adwitiya/ros2_humble/install/composition_interfaces:/home/adwitiya/ros2_humble/install/rcl_interfaces:/home/adwitiya/ros2_humble/install/pendulum_msgs:/home/adwitiya/ros2_humble/install/lifecycle_msgs:/home/adwitiya/ros2_humble/install/builtin_interfaces:/home/adwitiya/ros2_humble/install/rosidl_default_runtime:/home/adwitiya/ros2_humble/install/rosidl_default_generators:/home/adwitiya/ros2_humble/install/rosidl_generator_py:/home/adwitiya/ros2_humble/install/rosidl_typesupport_introspection_tests:/home/adwitiya/ros2_humble/install/rosidl_typesupport_cpp:/home/adwitiya/ros2_humble/install/rosidl_typesupport_introspection_cpp:/home/adwitiya/ros2_humble/install/rosidl_typesupport_c:/home/adwitiya/ros2_humble/install/rosidl_typesupport_introspection_c:/home/adwitiya/ros2_humble/install/rosidl_typesupport_fastrtps_c:/home/adwitiya/ros2_humble/install/rosidl_typesupport_fastrtps_cpp:/home/adwitiya/ros2_humble/install/rosidl_generator_cpp:/home/adwitiya/ros2_humble/install/rosidl_runtime_cpp:/home/adwitiya/ros2_humble/install/rcl_yaml_param_parser:/home/adwitiya/ros2_humble/install/rmw:/home/adwitiya/ros2_humble/install/rosidl_runtime_c:/home/adwitiya/ros2_humble/install/rosidl_generator_c:/home/adwitiya/ros2_humble/install/rosidl_typesupport_interface:/home/adwitiya/ros2_humble/install/rosidl_generator_dds_idl:/home/adwitiya/ros2_humble/install/rosidl_cmake:/home/adwitiya/ros2_humble/install/rosidl_parser:/home/adwitiya/ros2_humble/install/rosidl_adapter:/home/adwitiya/ros2_humble/install/rosbag2_tests:/home/adwitiya/ros2_humble/install/rosbag2_storage_mcap_testdata:/home/adwitiya/ros2_humble/install/ros_environment:/home/adwitiya/ros2_humble/install/rmw_implementation_cmake:/home/adwitiya/ros2_humble/install/resource_retriever:/home/adwitiya/ros2_humble/install/class_loader:/home/adwitiya/ros2_humble/install/rcpputils:/home/adwitiya/ros2_humble/install/rcl_logging_noop:/home/adwitiya/ros2_humble/install/rcl_logging_interface:/home/adwitiya/ros2_humble/install/rcutils:/home/adwitiya/ros2_humble/install/qt_gui_py_common:/home/adwitiya/ros2_humble/install/qt_dotgraph:/home/adwitiya/ros2_humble/install/python_qt_binding:/home/adwitiya/ros2_humble/install/python_orocos_kdl_vendor:/home/adwitiya/ros2_humble/install/launch_testing_ament_cmake:/home/adwitiya/ros2_humble/install/python_cmake_module:/home/adwitiya/ros2_humble/install/pybind11_vendor:/home/adwitiya/ros2_humble/install/performance_test_fixture:/home/adwitiya/ros2_humble/install/osrf_testing_tools_cpp:/home/adwitiya/ros2_humble/install/orocos_kdl_vendor:/home/adwitiya/ros2_humble/install/mimick_vendor:/home/adwitiya/ros2_humble/install/libyaml_vendor:/home/adwitiya/ros2_humble/install/libcurl_vendor:/home/adwitiya/ros2_humble/install/keyboard_handler:/home/adwitiya/ros2_humble/install/cyclonedds:/home/adwitiya/ros2_humble/install/iceoryx_posh:/home/adwitiya/ros2_humble/install/iceoryx_hoofs:/home/adwitiya/ros2_humble/install/iceoryx_binding_c:/home/adwitiya/ros2_humble/install/ament_cmake_ros:/home/adwitiya/ros2_humble/install/ament_cmake_gmock:/home/adwitiya/ros2_humble/install/gmock_vendor:/home/adwitiya/ros2_humble/install/ament_cmake_auto:/home/adwitiya/ros2_humble/install/ament_cmake_gtest:/home/adwitiya/ros2_humble/install/gtest_vendor:/home/adwitiya/ros2_humble/install/ament_cmake_google_benchmark:/home/adwitiya/ros2_humble/install/google_benchmark_vendor:/home/adwitiya/ros2_humble/install/fastrtps:/home/adwitiya/ros2_humble/install/foonathan_memory_vendor:/home/adwitiya/ros2_humble/install/fastrtps_cmake_module:/home/adwitiya/ros2_humble/install/fastcdr:/home/adwitiya/ros2_humble/install/eigen3_cmake_module:/home/adwitiya/ros2_humble/install/console_bridge_vendor:/home/adwitiya/ros2_humble/install/ament_cmake_xmllint:/home/adwitiya/ros2_humble/install/ament_cmake_pyflakes:/home/adwitiya/ros2_humble/install/ament_cmake_pycodestyle:/home/adwitiya/ros2_humble/install/ament_cmake_pep257:/home/adwitiya/ros2_humble/install/ament_cmake_pclint:/home/adwitiya/ros2_humble/install/ament_lint_auto:/home/adwitiya/ros2_humble/install/ament_cmake:/home/adwitiya/ros2_humble/install/ament_cmake_version:/home/adwitiya/ros2_humble/install/ament_cmake_pytest:/home/adwitiya/ros2_humble/install/ament_cmake_nose:/home/adwitiya/ros2_humble/install/ament_cmake_mypy:/home/adwitiya/ros2_humble/install/ament_cmake_lint_cmake:/home/adwitiya/ros2_humble/install/ament_cmake_flake8:/home/adwitiya/ros2_humble/install/ament_cmake_cpplint:/home/adwitiya/ros2_humble/install/ament_cmake_cppcheck:/home/adwitiya/ros2_humble/install/ament_cmake_copyright:/home/adwitiya/ros2_humble/install/ament_cmake_clang_tidy:/home/adwitiya/ros2_humble/install/ament_cmake_clang_format:/home/adwitiya/ros2_humble/install/ament_cmake_test:/home/adwitiya/ros2_humble/install/ament_cmake_target_dependencies:/home/adwitiya/ros2_humble/install/ament_cmake_python:/home/adwitiya/ros2_humble/install/ament_cmake_export_dependencies:/home/adwitiya/ros2_humble/install/ament_cmake_libraries:/home/adwitiya/ros2_humble/install/ament_cmake_include_directories:/home/adwitiya/ros2_humble/install/ament_cmake_gen_version_h:/home/adwitiya/ros2_humble/install/ament_cmake_export_targets:/home/adwitiya/ros2_humble/install/ament_cmake_export_link_flags:/home/adwitiya/ros2_humble/install/ament_cmake_export_interfaces:/home/adwitiya/ros2_humble/install/ament_cmake_export_libraries:/home/adwitiya/ros2_humble/install/ament_cmake_export_include_directories:/home/adwitiya/ros2_humble/install/ament_cmake_export_definitions:/home/adwitiya/ros2_humble/install/ament_cmake_core:/home/adwitiya/ros2_humble/install/ament_index_cpp:/home/adwitiya/ros2_ws/install/my_robot_controller:/home/adwitiya/ros2_humble/install/rqt_bag_plugins:/home/adwitiya/ros2_humble/install/rqt_bag:/home/adwitiya/ros2_humble/install/ros2bag:/home/adwitiya/ros2_humble/install/tracetools_test:/home/adwitiya/ros2_humble/install/tracetools_launch:/home/adwitiya/ros2_humble/install/topic_monitor:/home/adwitiya/ros2_humble/install/tf2_tools:/home/adwitiya/ros2_humble/install/examples_tf2_py:/home/adwitiya/ros2_humble/install/tf2_ros_py:/home/adwitiya/ros2_humble/install/sros2:/home/adwitiya/ros2_humble/install/rqt_topic:/home/adwitiya/ros2_humble/install/rqt_srv:/home/adwitiya/ros2_humble/install/rqt_shell:/home/adwitiya/ros2_humble/install/rqt_service_caller:/home/adwitiya/ros2_humble/install/rqt_reconfigure:/home/adwitiya/ros2_humble/install/rqt_py_console:/home/adwitiya/ros2_humble/install/rqt_publisher:/home/adwitiya/ros2_humble/install/rqt_plot:/home/adwitiya/ros2_humble/install/rqt_action:/home/adwitiya/ros2_humble/install/rqt_msg:/home/adwitiya/ros2_humble/install/rqt_console:/home/adwitiya/ros2_humble/install/rqt:/home/adwitiya/ros2_humble/install/rqt_graph:/home/adwitiya/ros2_humble/install/rqt_gui_py:/home/adwitiya/ros2_humble/install/rqt_gui:/home/adwitiya/ros2_humble/install/ros2trace:/home/adwitiya/ros2_humble/install/ros2topic:/home/adwitiya/ros2_humble/install/ros2test:/home/adwitiya/ros2_humble/install/ros2component:/home/adwitiya/ros2_humble/install/ros2param:/home/adwitiya/ros2_humble/install/ros2lifecycle:/home/adwitiya/ros2_humble/install/ros2service:/home/adwitiya/ros2_humble/install/ros2run:/home/adwitiya/ros2_humble/install/ros2launch:/home/adwitiya/ros2_humble/install/ros2pkg:/home/adwitiya/ros2_humble/install/ros2node:/home/adwitiya/ros2_humble/install/ros2multicast:/home/adwitiya/ros2_humble/install/ros2interface:/home/adwitiya/ros2_humble/install/ros2doctor:/home/adwitiya/ros2_humble/install/ros2action:/home/adwitiya/ros2_humble/install/ros2cli:/home/adwitiya/ros2_humble/install/quality_of_service_demo_py:/home/adwitiya/ros2_humble/install/lifecycle_py:/home/adwitiya/ros2_humble/install/launch_testing_ros:/home/adwitiya/ros2_humble/install/launch_ros:/home/adwitiya/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/adwitiya/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/adwitiya/ros2_humble/install/examples_rclpy_minimal_service:/home/adwitiya/ros2_humble/install/examples_rclpy_minimal_publisher:/home/adwitiya/ros2_humble/install/examples_rclpy_minimal_client:/home/adwitiya/ros2_humble/install/examples_rclpy_minimal_action_server:/home/adwitiya/ros2_humble/install/examples_rclpy_minimal_action_client:/home/adwitiya/ros2_humble/install/examples_rclpy_guard_conditions:/home/adwitiya/ros2_humble/install/examples_rclpy_executors:/home/adwitiya/ros2_humble/install/demo_nodes_py:/home/adwitiya/ros2_humble/install/action_tutorials_py:/home/adwitiya/ros2_humble/install/ament_uncrustify:/home/adwitiya/ros2_humble/install/tracetools_trace:/home/adwitiya/ros2_humble/install/tracetools_read:/home/adwitiya/ros2_humble/install/test_tracetools_launch:/home/adwitiya/ros2_humble/install/test_launch_ros:/home/adwitiya/ros2_humble/install/sensor_msgs_py:/home/adwitiya/ros2_humble/install/rpyutils:/home/adwitiya/ros2_humble/install/rosidl_runtime_py:/home/adwitiya/ros2_humble/install/rosidl_cli:/home/adwitiya/ros2_humble/install/launch_pytest:/home/adwitiya/ros2_humble/install/launch_testing:/home/adwitiya/ros2_humble/install/launch_yaml:/home/adwitiya/ros2_humble/install/launch_xml:/home/adwitiya/ros2_humble/install/launch:/home/adwitiya/ros2_humble/install/osrf_pycommon:/home/adwitiya/ros2_humble/install/launch_testing_examples:/home/adwitiya/ros2_humble/install/domain_coordinator:/home/adwitiya/ros2_humble/install/ament_xmllint:/home/adwitiya/ros2_humble/install/ament_pyflakes:/home/adwitiya/ros2_humble/install/ament_pycodestyle:/home/adwitiya/ros2_humble/install/ament_pep257:/home/adwitiya/ros2_humble/install/ament_pclint:/home/adwitiya/ros2_humble/install/ament_package:/home/adwitiya/ros2_humble/install/ament_mypy:/home/adwitiya/ros2_humble/install/ament_lint_cmake:/home/adwitiya/ros2_humble/install/ament_flake8:/home/adwitiya/ros2_humble/install/ament_copyright:/home/adwitiya/ros2_humble/install/ament_lint:/home/adwitiya/ros2_humble/install/ament_index_python:/home/adwitiya/ros2_humble/install/ament_cpplint:/home/adwitiya/ros2_humble/install/ament_cppcheck:/home/adwitiya/ros2_humble/install/ament_clang_tidy:/home/adwitiya/ros2_humble/install/ament_clang_format LD_LIBRARY_PATH=/home/adwitiya/micro-ros/agent_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adwitiya/micro-ros/agent_ws/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent -- -j8 -l8
+[0.254s] [  6%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[0.318s] Cloning into 'xrceagent'...
+[10.540s] Switched to a new branch 'ros2'
+[10.540s] Branch 'ros2' set up to track remote branch 'ros2' from 'origin'.
+[10.812s] [ 12%] [34m[1mNo patch step for 'xrceagent'[0m
+[10.818s] [ 18%] [34m[1mPerforming update step for 'xrceagent'[0m
+[11.827s] Current branch ros2 is up to date.
+[12.004s] [ 25%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[12.040s] loading initial cache file /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[12.192s] -- The C compiler identification is GNU 9.4.0
+[12.268s] -- Check for working C compiler: /usr/bin/cc
+[12.463s] -- Check for working C compiler: /usr/bin/cc -- works
+[12.464s] -- Detecting C compiler ABI info
+[12.672s] -- Detecting C compiler ABI info - done
+[12.690s] -- Detecting C compile features
+[12.690s] -- Detecting C compile features - done
+[12.789s] -- The CXX compiler identification is GNU 9.4.0
+[12.812s] -- Check for working CXX compiler: /usr/bin/c++
+[13.017s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[13.018s] -- Detecting CXX compiler ABI info
+[13.233s] -- Detecting CXX compiler ABI info - done
+[13.245s] -- Detecting CXX compile features
+[13.246s] -- Detecting CXX compile features - done
+[13.342s] -- Configuring done
+[13.346s] -- Generating done
+[13.347s] -- Build files have been written to: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[13.408s] [ 31%] [34m[1mPerforming build step for 'xrceagent'[0m
+[13.524s] [35m[1mScanning dependencies of target spdlog[0m
+[13.568s] [  6%] [34m[1mCreating directories for 'spdlog'[0m
+[13.786s] [ 12%] [34m[1mPerforming download step (git clone) for 'spdlog'[0m
+[13.853s] Cloning into 'spdlog'...
+[44.048s] Note: switching to 'v1.9.2'.
+[44.048s] 
+[44.048s] You are in 'detached HEAD' state. You can look around, make experimental
+[44.048s] changes and commit them, and you can discard any commits you make in this
+[44.049s] state without impacting any branches by switching back to a branch.
+[44.049s] 
+[44.049s] If you want to create a new branch to retain commits you create, you may
+[44.049s] do so (now or later) by using -c with the switch command. Example:
+[44.049s] 
+[44.049s]   git switch -c <new-branch-name>
+[44.050s] 
+[44.050s] Or undo this operation with:
+[44.050s] 
+[44.050s]   git switch -
+[44.050s] 
+[44.050s] Turn off this advice by setting config variable advice.detachedHead to false
+[44.051s] 
+[44.051s] HEAD is now at eb322062 Bump version to 1.9.2
+[44.264s] [ 25%] [34m[1mNo patch step for 'spdlog'[0m
+[44.264s] [ 25%] [34m[1mPerforming update step for 'spdlog'[0m
+[44.341s] [ 31%] [34m[1mPerforming configure step for 'spdlog'[0m
+[44.375s] loading initial cache file /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-cache-.cmake
+[44.525s] -- The CXX compiler identification is GNU 9.4.0
+[44.592s] -- Check for working CXX compiler: /usr/bin/c++
+[44.790s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[44.793s] -- Detecting CXX compiler ABI info
+[45.001s] -- Detecting CXX compiler ABI info - done
+[45.020s] -- Detecting CXX compile features
+[45.021s] -- Detecting CXX compile features - done
+[45.021s] -- Build spdlog: 1.9.2
+[45.054s] -- Looking for C++ include pthread.h
+[45.271s] -- Looking for C++ include pthread.h - found
+[45.271s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[45.521s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[45.521s] -- Looking for pthread_create in pthreads
+[45.723s] -- Looking for pthread_create in pthreads - not found
+[45.723s] -- Looking for pthread_create in pthread
+[45.922s] -- Looking for pthread_create in pthread - found
+[45.924s] -- Found Threads: TRUE  
+[45.925s] -- Build type: Release
+[45.927s] -- Generating example(s)
+[45.929s] -- Generating install
+[45.975s] -- Configuring done
+[45.982s] -- Generating done
+[45.982s] -- Build files have been written to: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build
+[46.050s] [ 37%] [34m[1mPerforming build step for 'spdlog'[0m
+[46.167s] [35m[1mScanning dependencies of target spdlog[0m
+[46.221s] [ 10%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/async.cpp.o[0m
+[46.223s] [ 20%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o[0m
+[46.224s] [ 30%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o[0m
+[46.225s] [ 50%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/fmt.cpp.o[0m
+[46.225s] [ 50%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o[0m
+[46.226s] [ 60%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/cfg.cpp.o[0m
+[46.232s] [ 70%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o[0m
+[56.582s] [ 80%] [32m[1mLinking CXX static library libspdlog.a[0m
+[56.731s] [ 80%] Built target spdlog
+[56.772s] [35m[1mScanning dependencies of target example[0m
+[56.812s] [ 90%] [32mBuilding CXX object example/CMakeFiles/example.dir/example.cpp.o[0m
+[61.689s] [100%] [32m[1mLinking CXX executable example[0m
+[61.871s] [100%] Built target example
+[61.956s] [ 43%] [34m[1mPerforming install step for 'spdlog'[0m
+[62.120s] [ 80%] Built target spdlog
+[62.204s] [100%] Built target example
+[62.263s] [36mInstall the project...[0m
+[62.285s] -- Install configuration: "Release"
+[62.285s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include
+[62.285s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog
+[62.285s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter-inl.h
+[62.285s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks
+[62.286s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/daily_file_sink.h
+[62.286s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink.h
+[62.286s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/tcp_sink.h
+[62.286s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/mongo_sink.h
+[62.286s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/systemd_sink.h
+[62.286s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks-inl.h
+[62.286s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink-inl.h
+[62.287s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink.h
+[62.287s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/win_eventlog_sink.h
+[62.287s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink-inl.h
+[62.287s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/null_sink.h
+[62.287s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks.h
+[62.287s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/hourly_file_sink.h
+[62.288s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink.h
+[62.288s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/android_sink.h
+[62.288s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/qt_sinks.h
+[62.288s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink-inl.h
+[62.288s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/dup_filter_sink.h
+[62.288s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink-inl.h
+[62.288s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks-inl.h
+[62.289s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/msvc_sink.h
+[62.289s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks.h
+[62.289s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink.h
+[62.289s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink-inl.h
+[62.289s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ringbuffer_sink.h
+[62.289s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ostream_sink.h
+[62.290s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink-inl.h
+[62.290s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink.h
+[62.290s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink.h
+[62.290s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/syslog_sink.h
+[62.291s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/dist_sink.h
+[62.291s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/version.h
+[62.291s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/logger.h
+[62.292s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common-inl.h
+[62.292s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/stopwatch.h
+[62.292s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg
+[62.292s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/argv.h
+[62.292s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/env.h
+[62.292s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers-inl.h
+[62.293s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers.h
+[62.293s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter.h
+[62.293s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog.h
+[62.293s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/formatter.h
+[62.293s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt
+[62.294s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bin_to_hex.h
+[62.294s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/xchar.h
+[62.294s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/compile.h
+[62.294s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/fmt.h
+[62.295s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/ostr.h
+[62.295s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/chrono.h
+[62.295s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/tweakme.h
+[62.295s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fwd.h
+[62.295s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/logger-inl.h
+[62.296s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details
+[62.296s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client-windows.h
+[62.296s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/console_globals.h
+[62.296s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool.h
+[62.297s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer-inl.h
+[62.297s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg.h
+[62.297s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/windows_include.h
+[62.297s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool-inl.h
+[62.297s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer.h
+[62.298s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer-inl.h
+[62.298s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker.h
+[62.298s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper-inl.h
+[62.298s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper.h
+[62.298s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/registry.h
+[62.298s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer.h
+[62.299s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/mpmc_blocking_q.h
+[62.299s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg-inl.h
+[62.299s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client.h
+[62.299s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/registry-inl.h
+[62.300s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/synchronous_factory.h
+[62.300s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/os.h
+[62.300s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/null_mutex.h
+[62.300s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/os-inl.h
+[62.300s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/circular_q.h
+[62.300s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker-inl.h
+[62.300s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/fmt_helper.h
+[62.301s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog-inl.h
+[62.301s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common.h
+[62.301s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async_logger-inl.h
+[62.301s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async_logger.h
+[62.301s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async.h
+[62.301s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/libspdlog.a
+[62.301s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled/
+[62.301s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//xchar.h
+[62.302s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//compile.h
+[62.302s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ranges.h
+[62.302s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//core.h
+[62.302s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format-inl.h
+[62.302s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//locale.h
+[62.302s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//color.h
+[62.302s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format.h
+[62.302s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//chrono.h
+[62.303s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//os.h
+[62.303s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ostream.h
+[62.303s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//args.h
+[62.303s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//printf.h
+[62.303s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/pkgconfig/spdlog.pc
+[62.303s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[62.303s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[62.303s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfig.cmake
+[62.303s] -- Installing: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[62.359s] [ 50%] [34m[1mCompleted 'spdlog'[0m
+[62.463s] [ 50%] Built target spdlog
+[62.506s] [35m[1mScanning dependencies of target uagent[0m
+[62.546s] [ 56%] [34m[1mCreating directories for 'uagent'[0m
+[62.767s] [ 62%] [34m[1mNo download step for 'uagent'[0m
+[62.856s] [ 68%] [34m[1mNo update step for 'uagent'[0m
+[62.861s] [ 75%] [34m[1mNo patch step for 'uagent'[0m
+[62.942s] [ 81%] [34m[1mPerforming configure step for 'uagent'[0m
+[62.977s] loading initial cache file /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake
+[62.984s] -- Setting build type to 'Release' as none was specified.
+[63.096s] -- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[63.427s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[63.565s] -- Looking for pthread.h
+[63.773s] -- Looking for pthread.h - found
+[63.773s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[63.962s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[63.963s] -- Looking for pthread_create in pthreads
+[64.150s] -- Looking for pthread_create in pthreads - not found
+[64.150s] -- Looking for pthread_create in pthread
+[64.358s] -- Looking for pthread_create in pthread - found
+[64.361s] -- Found Threads: TRUE  
+[64.374s] -- Configuring done
+[64.387s] -- Generating done
+[64.388s] -- Build files have been written to: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[64.447s] [ 87%] [34m[1mPerforming build step for 'uagent'[0m
+[64.555s] [35m[1mScanning dependencies of target microxrcedds_agent[0m
+[64.719s] [  2%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[64.720s] [  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o[0m
+[64.721s] [  7%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o[0m
+[64.722s] [  9%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o[0m
+[64.724s] [ 11%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o[0m
+[64.725s] [ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o[0m
+[64.727s] [ 16%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o[0m
+[64.731s] [ 19%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o[0m
+[67.550s] [ 23%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o[0m
+[67.551s] [ 23%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o[0m
+[67.556s] [ 26%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o[0m
+[75.793s] [ 28%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o[0m
+[76.453s] [ 30%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o[0m
+[78.254s] [ 33%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o[0m
+[78.931s] [ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o[0m
+[78.931s] [ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o[0m
+[80.423s] [ 40%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o[0m
+[80.554s] [ 42%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o[0m
+[81.604s] [ 45%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o[0m
+[82.313s] [ 47%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o[0m
+[86.267s] [ 50%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o[0m
+[87.095s] [ 52%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o[0m
+[87.233s] [ 54%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o[0m
+[87.473s] [ 57%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o[0m
+[87.630s] [ 59%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o[0m
+[87.870s] [ 61%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o[0m
+[88.093s] [ 64%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o[0m
+[89.838s] [ 66%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o[0m
+[94.457s] [ 69%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o[0m
+[95.526s] [ 71%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o[0m
+[96.107s] [ 73%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o[0m
+[96.529s] [ 76%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o[0m
+[97.290s] [ 78%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o[0m
+[98.303s] [ 80%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o[0m
+[98.830s] [ 83%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o[0m
+[99.933s] [ 85%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o[0m
+[100.559s] [ 88%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o[0m
+[101.838s] [ 90%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o[0m
+[103.173s] [ 92%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o[0m
+[103.792s] [ 95%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o[0m
+[104.322s] [ 97%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o[0m
+[114.648s] [100%] [32m[1mLinking CXX shared library libmicroxrcedds_agent.so[0m
+[116.514s] [100%] Built target microxrcedds_agent
+[116.592s] [34m[1mNo install step for 'uagent'[0m
+[116.682s] [34m[1mCompleted 'uagent'[0m
+[116.795s] Built target uagent
+[116.888s] [ 37%] [34m[1mPerforming install step for 'xrceagent'[0m
+[117.780s] [100%] Built target microxrcedds_agent
+[117.839s] [36mInstall the project...[0m
+[117.870s] -- Install configuration: "Release"
+[117.870s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1
+[117.875s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4
+[117.876s] -- Set runtime path of "/home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1" to ""
+[117.876s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so
+[117.876s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent
+[117.877s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp
+[117.877s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp
+[117.877s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/reader
+[117.877s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp
+[117.878s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp
+[117.878s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/processor
+[117.878s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp
+[117.878s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/datawriter
+[117.879s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp
+[117.879s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/client
+[117.879s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/client/session
+[117.879s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream
+[117.880s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp
+[117.880s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp
+[117.880s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp
+[117.880s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp
+[117.881s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp
+[117.881s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/topic
+[117.881s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp
+[117.881s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp
+[117.882s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/utils
+[117.882s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp
+[117.882s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp
+[117.883s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp
+[117.883s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp
+[117.883s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp
+[117.883s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp
+[117.884s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp
+[117.884s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp
+[117.884s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp
+[117.884s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/scheduler
+[117.885s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp
+[117.885s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp
+[117.885s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/message
+[117.885s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp
+[117.885s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp
+[117.886s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp
+[117.886s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/datareader
+[117.886s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp
+[117.886s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/object
+[117.886s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp
+[117.887s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/middleware
+[117.887s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp
+[117.887s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds
+[117.887s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp
+[117.888s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp
+[117.888s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast
+[117.888s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp
+[117.888s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp
+[117.889s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils
+[117.889s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp
+[117.889s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced
+[117.889s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp
+[117.889s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp
+[117.890s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/publisher
+[117.890s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp
+[117.890s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/participant
+[117.890s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp
+[117.890s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/p2p
+[117.891s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp
+[117.896s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp
+[117.907s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport
+[117.907s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing
+[117.908s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp
+[117.908s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp
+[117.908s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/can
+[117.908s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp
+[117.908s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/serial
+[117.909s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp
+[117.909s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp
+[117.909s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp
+[117.909s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h
+[117.910s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp
+[117.910s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp
+[117.910s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/util
+[117.910s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp
+[117.913s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp
+[117.913s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp
+[117.913s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/udp
+[117.913s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp
+[117.914s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp
+[117.914s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp
+[117.914s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp
+[117.915s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery
+[117.915s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp
+[117.915s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp
+[117.915s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp
+[117.916s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp
+[117.916s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp
+[117.916s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp
+[117.916s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp
+[117.917s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp
+[117.917s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp
+[117.917s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp
+[117.917s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint
+[117.917s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp
+[117.917s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp
+[117.917s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp
+[117.918s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp
+[117.918s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp
+[117.918s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp
+[117.918s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p
+[117.918s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp
+[117.918s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp
+[117.918s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/custom
+[117.918s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp
+[117.919s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp
+[117.919s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/logger
+[117.919s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp
+[117.919s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/subscriber
+[117.919s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp
+[117.919s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/requester
+[117.920s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp
+[117.920s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/types
+[117.920s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp
+[117.920s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp
+[117.921s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp
+[117.921s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp
+[117.922s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp
+[117.922s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/replier
+[117.922s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp
+[117.923s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake
+[117.924s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake
+[117.924s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/uxr/agent/config.hpp
+[117.925s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE
+[117.925s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake
+[117.928s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake
+[117.939s] -- Up-to-date: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent
+[117.940s] -- Up-to-date: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/lib
+[117.940s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/lib/libspdlog.a
+[117.943s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/lib/pkgconfig
+[117.943s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/lib/pkgconfig/spdlog.pc
+[117.953s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/lib/cmake
+[117.953s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/lib/cmake/spdlog
+[117.953s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[117.963s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[117.964s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[117.965s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfig.cmake
+[117.965s] -- Up-to-date: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include
+[117.965s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog
+[117.965s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/pattern_formatter-inl.h
+[117.966s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks
+[117.966s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/daily_file_sink.h
+[117.967s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink.h
+[117.967s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/tcp_sink.h
+[117.968s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/mongo_sink.h
+[117.968s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/systemd_sink.h
+[117.969s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks-inl.h
+[117.969s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink-inl.h
+[117.969s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink.h
+[117.970s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/win_eventlog_sink.h
+[117.970s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink-inl.h
+[117.971s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/null_sink.h
+[117.971s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks.h
+[117.971s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/hourly_file_sink.h
+[117.972s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/sink.h
+[117.972s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/android_sink.h
+[117.972s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/qt_sinks.h
+[117.973s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink-inl.h
+[117.973s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/dup_filter_sink.h
+[117.973s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink-inl.h
+[117.974s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks-inl.h
+[117.974s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/msvc_sink.h
+[117.974s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks.h
+[117.975s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink.h
+[117.975s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/sink-inl.h
+[117.975s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/ringbuffer_sink.h
+[117.976s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/ostream_sink.h
+[117.976s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink-inl.h
+[117.976s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink.h
+[117.977s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink.h
+[117.977s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/syslog_sink.h
+[117.978s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/sinks/dist_sink.h
+[117.978s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/version.h
+[117.978s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/logger.h
+[117.978s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/common-inl.h
+[117.979s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/stopwatch.h
+[117.979s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/cfg
+[117.979s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/cfg/argv.h
+[117.980s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/cfg/env.h
+[117.980s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/cfg/helpers-inl.h
+[117.980s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/cfg/helpers.h
+[117.981s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/pattern_formatter.h
+[117.981s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/spdlog.h
+[117.981s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/formatter.h
+[117.982s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt
+[117.982s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/bin_to_hex.h
+[117.982s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/xchar.h
+[117.983s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/compile.h
+[117.983s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/bundled
+[117.983s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/xchar.h
+[117.984s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/compile.h
+[117.984s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ranges.h
+[117.985s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/core.h
+[117.985s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format-inl.h
+[118.007s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/locale.h
+[118.008s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/color.h
+[118.008s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format.h
+[118.009s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/chrono.h
+[118.010s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/os.h
+[118.010s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ostream.h
+[118.010s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/args.h
+[118.011s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/printf.h
+[118.011s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/fmt.h
+[118.012s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/ostr.h
+[118.012s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fmt/chrono.h
+[118.012s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/tweakme.h
+[118.013s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/fwd.h
+[118.013s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/logger-inl.h
+[118.013s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details
+[118.014s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/tcp_client-windows.h
+[118.014s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/console_globals.h
+[118.014s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/thread_pool.h
+[118.015s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/backtracer-inl.h
+[118.016s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/log_msg.h
+[118.016s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/windows_include.h
+[118.016s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/thread_pool-inl.h
+[118.017s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer.h
+[118.017s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer-inl.h
+[118.017s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker.h
+[118.018s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/file_helper-inl.h
+[118.018s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/file_helper.h
+[118.018s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/registry.h
+[118.019s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/backtracer.h
+[118.019s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/mpmc_blocking_q.h
+[118.019s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/log_msg-inl.h
+[118.020s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/tcp_client.h
+[118.020s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/registry-inl.h
+[118.021s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/synchronous_factory.h
+[118.021s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/os.h
+[118.021s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/null_mutex.h
+[118.021s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/os-inl.h
+[118.022s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/circular_q.h
+[118.022s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker-inl.h
+[118.022s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/details/fmt_helper.h
+[118.023s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/spdlog-inl.h
+[118.023s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/common.h
+[118.023s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/async_logger-inl.h
+[118.024s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/async_logger.h
+[118.024s] -- Installing: /home/adwitiya/micro-ros/agent_ws/install/micro_ros_agent/include/spdlog/async.h
+[118.089s] [ 43%] [34m[1mCompleted 'xrceagent'[0m
+[118.205s] [ 50%] Built target xrceagent
+[118.260s] [35m[1mScanning dependencies of target micro_ros_agent[0m
+[118.304s] [ 56%] [34m[1mCreating directories for 'micro_ros_agent'[0m
+[118.528s] [ 62%] [34m[1mNo download step for 'micro_ros_agent'[0m
+[118.610s] [ 68%] [34m[1mNo update step for 'micro_ros_agent'[0m
+[118.613s] [ 75%] [34m[1mNo patch step for 'micro_ros_agent'[0m
+[118.693s] [ 81%] [34m[1mPerforming configure step for 'micro_ros_agent'[0m
+[118.728s] loading initial cache file /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake
+[118.830s] -- Found ament_cmake: 1.3.4 (/home/adwitiya/ros2_humble/install/ament_cmake/share/ament_cmake/cmake)
+[122.198s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[124.763s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[124.872s] -- Looking for C++ include pthread.h
+[125.096s] -- Looking for C++ include pthread.h - found
+[125.098s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[125.311s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[125.311s] -- Looking for pthread_create in pthreads
+[125.528s] -- Looking for pthread_create in pthreads - not found
+[125.529s] -- Looking for pthread_create in pthread
+[125.741s] -- Looking for pthread_create in pthread - found
+[125.744s] -- Found Threads: TRUE  
+[125.806s] -- Found rosidl_cmake: 3.1.4 (/home/adwitiya/ros2_humble/install/rosidl_cmake/share/rosidl_cmake/cmake)
+[125.873s] -- Found rosidl_adapter: 3.1.4 (/home/adwitiya/ros2_humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[126.045s] -- Found fastrtps_cmake_module: 2.2.0 (/home/adwitiya/ros2_humble/install/fastrtps_cmake_module/share/fastrtps_cmake_module/cmake)
+[126.104s] -- Found rmw_dds_common: 1.6.0 (/home/adwitiya/ros2_humble/install/rmw_dds_common/share/rmw_dds_common/cmake)
+[126.739s] -- Found rosidl_generator_c: 3.1.4 (/home/adwitiya/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+[126.902s] -- Found rosidl_generator_cpp: 3.1.4 (/home/adwitiya/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+[127.112s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[127.295s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[127.533s] -- Found rmw_fastrtps_shared_cpp: 6.2.2 (/home/adwitiya/ros2_humble/install/rmw_fastrtps_shared_cpp/share/rmw_fastrtps_shared_cpp/cmake)
+[127.784s] -- Found FastRTPS: /home/adwitiya/ros2_humble/install/fastrtps/include  
+[127.827s] -- Found ament_lint_auto: 0.12.6 (/home/adwitiya/ros2_humble/install/ament_lint_auto/share/ament_lint_auto/cmake)
+[127.907s] -- Found ament_cmake_gtest: 1.3.4 (/home/adwitiya/ros2_humble/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+[127.968s] -- Found micro_ros_msgs: 4.0.0 (/home/adwitiya/micro-ros/agent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[128.900s] -- Configuring done
+[128.916s] -- Generating done
+[128.917s] -- Build files have been written to: /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent
+[128.976s] [ 87%] [34m[1mPerforming build step for 'micro_ros_agent'[0m
+[129.090s] [35m[1mScanning dependencies of target micro_ros_agent[0m
+[129.874s] [ 16%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o[0m
+[129.880s] [ 33%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o[0m
+[129.883s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o[0m
+[129.891s] [ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[129.891s] [ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[132.025s] [01m[K/home/adwitiya/micro-ros/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:[m[K In member function ‘[01m[Kvoid uros::agent::graph_manager::GraphManager::add_datawriter(const eprosima::fastrtps::rtps::GUID_t&, const string&, const string&, const eprosima::fastrtps::rtps::GUID_t&, const eprosima::fastdds::dds::DataWriterQos&)[m[K’:
+[132.025s] [01m[K/home/adwitiya/micro-ros/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:378:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krosidl_get_zero_initialized_type_hash[m[K’ was not declared in this scope; did you mean ‘[01m[Krcutils_get_zero_initialized_hash_map[m[K’?
+[132.025s]   378 |         [01;31m[Krosidl_get_zero_initialized_type_hash[m[K(), participant_gid, qos_profile, false);
+[132.026s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[132.026s]       |         [32m[Krcutils_get_zero_initialized_hash_map[m[K
+[132.029s] [01m[K/home/adwitiya/micro-ros/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:[m[K In member function ‘[01m[Kvoid uros::agent::graph_manager::GraphManager::add_datareader(const eprosima::fastrtps::rtps::GUID_t&, const string&, const string&, const eprosima::fastrtps::rtps::GUID_t&, const eprosima::fastdds::dds::DataReaderQos&)[m[K’:
+[132.029s] [01m[K/home/adwitiya/micro-ros/agent_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:420:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krosidl_get_zero_initialized_type_hash[m[K’ was not declared in this scope; did you mean ‘[01m[Krcutils_get_zero_initialized_hash_map[m[K’?
+[132.029s]   420 |         [01;31m[Krosidl_get_zero_initialized_type_hash[m[K(), participant_gid, qos_profile, true);
+[132.029s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[132.029s]       |         [32m[Krcutils_get_zero_initialized_hash_map[m[K
+[133.242s] make[5]: *** [CMakeFiles/micro_ros_agent.dir/build.make:89: CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o] Error 1
+[133.242s] make[5]: *** Waiting for unfinished jobs....
+[135.254s] make[4]: *** [CMakeFiles/Makefile2:78: CMakeFiles/micro_ros_agent.dir/all] Error 2
+[135.254s] make[3]: *** [Makefile:141: all] Error 2
+[135.255s] make[2]: *** [CMakeFiles/micro_ros_agent.dir/build.make:113: micro_ros_agent-prefix/src/micro_ros_agent-stamp/micro_ros_agent-build] Error 2
+[135.255s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/micro_ros_agent.dir/all] Error 2
+[135.255s] make: *** [Makefile:84: all] Error 2
+[135.266s] Invoked command in '/home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent' returned '2': AMENT_PREFIX_PATH=/home/adwitiya/micro-ros/agent_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adwitiya/micro-ros/agent_ws/install/micro_ros_msgs:/home/adwitiya/micro-ros/agent_ws/install/micro_ros_setup:/home/adwitiya/ros2_humble/install/rosbag2_storage_mcap:/home/adwitiya/ros2_humble/install/rosbag2:/home/adwitiya/ros2_humble/install/rosbag2_compression_zstd:/home/adwitiya/ros2_humble/install/mcap_vendor:/home/adwitiya/ros2_humble/install/zstd_vendor:/home/adwitiya/ros2_humble/install/rviz_visual_testing_framework:/home/adwitiya/ros2_humble/install/rviz2:/home/adwitiya/ros2_humble/install/rviz_default_plugins:/home/adwitiya/ros2_humble/install/rviz_common:/home/adwitiya/ros2_humble/install/rosbag2_py:/home/adwitiya/ros2_humble/install/rosbag2_transport:/home/adwitiya/ros2_humble/install/rosbag2_performance_benchmarking:/home/adwitiya/ros2_humble/install/rosbag2_compression:/home/adwitiya/ros2_humble/install/rosbag2_cpp:/home/adwitiya/ros2_humble/install/rosbag2_storage_default_plugins:/home/adwitiya/ros2_humble/install/rosbag2_storage:/home/adwitiya/ros2_humble/install/image_common:/home/adwitiya/ros2_humble/install/camera_info_manager:/home/adwitiya/ros2_humble/install/camera_calibration_parsers:/home/adwitiya/ros2_humble/install/yaml_cpp_vendor:/home/adwitiya/ros2_humble/install/interactive_markers:/home/adwitiya/ros2_humble/install/common_interfaces:/home/adwitiya/ros2_humble/install/visualization_msgs:/home/adwitiya/ros2_humble/install/dummy_robot_bringup:/home/adwitiya/ros2_humble/install/robot_state_publisher:/home/adwitiya/ros2_humble/install/kdl_parser:/home/adwitiya/ros2_humble/install/urdf:/home/adwitiya/ros2_humble/install/urdfdom:/home/adwitiya/ros2_humble/install/urdf_parser_plugin:/home/adwitiya/ros2_humble/install/urdfdom_headers:/home/adwitiya/ros2_humble/install/turtlesim:/home/adwitiya/ros2_humble/install/geometry2:/home/adwitiya/ros2_humble/install/tf2_sensor_msgs:/home/adwitiya/ros2_humble/install/test_tf2:/home/adwitiya/ros2_humble/install/tf2_kdl:/home/adwitiya/ros2_humble/install/tf2_geometry_msgs:/home/adwitiya/ros2_humble/install/tf2_eigen:/home/adwitiya/ros2_humble/install/tf2_bullet:/home/adwitiya/ros2_humble/install/tf2_ros:/home/adwitiya/ros2_humble/install/tf2_py:/home/adwitiya/ros2_humble/install/tf2_msgs:/home/adwitiya/ros2_humble/install/test_msgs:/home/adwitiya/ros2_humble/install/sros2_cmake:/home/adwitiya/ros2_humble/install/ros2cli_common_extensions:/home/adwitiya/ros2_humble/install/rqt_py_common:/home/adwitiya/ros2_humble/install/ros_testing:/home/adwitiya/ros2_humble/install/ros2cli_test_interfaces:/home/adwitiya/ros2_humble/install/quality_of_service_demo_cpp:/home/adwitiya/ros2_humble/install/image_transport:/home/adwitiya/ros2_humble/install/message_filters:/home/adwitiya/ros2_humble/install/demo_nodes_cpp:/home/adwitiya/ros2_humble/install/composition:/home/adwitiya/ros2_humble/install/laser_geometry:/home/adwitiya/ros2_humble/install/rclpy:/home/adwitiya/ros2_humble/install/examples_rclcpp_minimal_action_server:/home/adwitiya/ros2_humble/install/examples_rclcpp_minimal_action_client:/home/adwitiya/ros2_humble/install/action_tutorials_cpp:/home/adwitiya/ros2_humble/install/rclcpp_action:/home/adwitiya/ros2_humble/install/rcl_action:/home/adwitiya/ros2_humble/install/examples_rclcpp_wait_set:/home/adwitiya/ros2_humble/install/examples_rclcpp_minimal_service:/home/adwitiya/ros2_humble/install/examples_rclcpp_minimal_client:/home/adwitiya/ros2_humble/install/examples_rclcpp_async_client:/home/adwitiya/ros2_humble/install/example_interfaces:/home/adwitiya/ros2_humble/install/action_tutorials_interfaces:/home/adwitiya/ros2_humble/install/action_msgs:/home/adwitiya/ros2_humble/install/unique_identifier_msgs:/home/adwitiya/ros2_humble/install/ament_lint_common:/home/adwitiya/ros2_humble/install/ament_cmake_uncrustify:/home/adwitiya/ros2_humble/install/uncrustify_vendor:/home/adwitiya/ros2_humble/install/trajectory_msgs:/home/adwitiya/ros2_humble/install/topic_statistics_demo:/home/adwitiya/ros2_humble/install/pendulum_control:/home/adwitiya/ros2_humble/install/tlsf_cpp:/home/adwitiya/ros2_humble/install/test_tracetools:/home/adwitiya/ros2_humble/install/rqt_gui_cpp:/home/adwitiya/ros2_humble/install/rosbag2_test_common:/home/adwitiya/ros2_humble/install/ros2lifecycle_test_fixtures:/home/adwitiya/ros2_humble/install/lifecycle:/home/adwitiya/ros2_humble/install/rclcpp_lifecycle:/home/adwitiya/ros2_humble/install/logging_demo:/home/adwitiya/ros2_humble/install/image_tools:/home/adwitiya/ros2_humble/install/examples_rclcpp_minimal_subscriber:/home/adwitiya/ros2_humble/install/examples_rclcpp_minimal_composition:/home/adwitiya/ros2_humble/install/demo_nodes_cpp_native:/home/adwitiya/ros2_humble/install/rclcpp_components:/home/adwitiya/ros2_humble/install/intra_process_demo:/home/adwitiya/ros2_humble/install/examples_rclcpp_multithreaded_executor:/home/adwitiya/ros2_humble/install/examples_rclcpp_minimal_timer:/home/adwitiya/ros2_humble/install/examples_rclcpp_minimal_publisher:/home/adwitiya/ros2_humble/install/examples_rclcpp_cbg_executor:/home/adwitiya/ros2_humble/install/dummy_sensors:/home/adwitiya/ros2_humble/install/dummy_map_server:/home/adwitiya/ros2_humble/install/rclcpp:/home/adwitiya/ros2_humble/install/rcl_lifecycle:/home/adwitiya/ros2_humble/install/libstatistics_collector:/home/adwitiya/ros2_humble/install/rcl:/home/adwitiya/ros2_humble/install/rmw_implementation:/home/adwitiya/ros2_humble/install/rmw_fastrtps_dynamic_cpp:/home/adwitiya/ros2_humble/install/rmw_fastrtps_cpp:/home/adwitiya/ros2_humble/install/rmw_fastrtps_shared_cpp:/home/adwitiya/ros2_humble/install/rmw_cyclonedds_cpp:/home/adwitiya/ros2_humble/install/tracetools:/home/adwitiya/ros2_humble/install/tlsf:/home/adwitiya/ros2_humble/install/tinyxml_vendor:/home/adwitiya/ros2_humble/install/qt_gui_core:/home/adwitiya/ros2_humble/install/qt_gui_cpp:/home/adwitiya/ros2_humble/install/pluginlib:/home/adwitiya/ros2_humble/install/tinyxml2_vendor:/home/adwitiya/ros2_humble/install/tf2_eigen_kdl:/home/adwitiya/ros2_humble/install/tf2:/home/adwitiya/ros2_humble/install/test_security:/home/adwitiya/ros2_humble/install/test_rmw_implementation:/home/adwitiya/ros2_humble/install/test_rclcpp:/home/adwitiya/ros2_humble/install/test_quality_of_service:/home/adwitiya/ros2_humble/install/test_launch_testing:/home/adwitiya/ros2_humble/install/test_interface_files:/home/adwitiya/ros2_humble/install/test_communication:/home/adwitiya/ros2_humble/install/test_cli_remapping:/home/adwitiya/ros2_humble/install/test_cli:/home/adwitiya/ros2_humble/install/qt_gui_app:/home/adwitiya/ros2_humble/install/qt_gui:/home/adwitiya/ros2_humble/install/tango_icons_vendor:/home/adwitiya/ros2_humble/install/stereo_msgs:/home/adwitiya/ros2_humble/install/std_srvs:/home/adwitiya/ros2_humble/install/shape_msgs:/home/adwitiya/ros2_humble/install/map_msgs:/home/adwitiya/ros2_humble/install/sensor_msgs:/home/adwitiya/ros2_humble/install/nav_msgs:/home/adwitiya/ros2_humble/install/diagnostic_msgs:/home/adwitiya/ros2_humble/install/geometry_msgs:/home/adwitiya/ros2_humble/install/actionlib_msgs:/home/adwitiya/ros2_humble/install/std_msgs:/home/adwitiya/ros2_humble/install/statistics_msgs:/home/adwitiya/ros2_humble/install/sqlite3_vendor:/home/adwitiya/ros2_humble/install/rcl_logging_spdlog:/home/adwitiya/ros2_humble/install/spdlog_vendor:/home/adwitiya/ros2_humble/install/shared_queues_vendor:/home/adwitiya/ros2_humble/install/rviz_rendering_tests:/home/adwitiya/ros2_humble/install/rviz_rendering:/home/adwitiya/ros2_humble/install/rviz_ogre_vendor:/home/adwitiya/ros2_humble/install/rviz_assimp_vendor:/home/adwitiya/ros2_humble/install/rttest:/home/adwitiya/ros2_humble/install/rmw_connextddsmicro:/home/adwitiya/ros2_humble/install/rmw_connextdds:/home/adwitiya/ros2_humble/install/rmw_connextdds_common:/home/adwitiya/ros2_humble/install/rti_connext_dds_cmake_module:/home/adwitiya/ros2_humble/install/rosgraph_msgs:/home/adwitiya/ros2_humble/install/rosbag2_interfaces:/home/adwitiya/ros2_humble/install/rmw_dds_common:/home/adwitiya/ros2_humble/install/composition_interfaces:/home/adwitiya/ros2_humble/install/rcl_interfaces:/home/adwitiya/ros2_humble/install/pendulum_msgs:/home/adwitiya/ros2_humble/install/lifecycle_msgs:/home/adwitiya/ros2_humble/install/builtin_interfaces:/home/adwitiya/ros2_humble/install/rosidl_default_runtime:/home/adwitiya/ros2_humble/install/rosidl_default_generators:/home/adwitiya/ros2_humble/install/rosidl_generator_py:/home/adwitiya/ros2_humble/install/rosidl_typesupport_introspection_tests:/home/adwitiya/ros2_humble/install/rosidl_typesupport_cpp:/home/adwitiya/ros2_humble/install/rosidl_typesupport_introspection_cpp:/home/adwitiya/ros2_humble/install/rosidl_typesupport_c:/home/adwitiya/ros2_humble/install/rosidl_typesupport_introspection_c:/home/adwitiya/ros2_humble/install/rosidl_typesupport_fastrtps_c:/home/adwitiya/ros2_humble/install/rosidl_typesupport_fastrtps_cpp:/home/adwitiya/ros2_humble/install/rosidl_generator_cpp:/home/adwitiya/ros2_humble/install/rosidl_runtime_cpp:/home/adwitiya/ros2_humble/install/rcl_yaml_param_parser:/home/adwitiya/ros2_humble/install/rmw:/home/adwitiya/ros2_humble/install/rosidl_runtime_c:/home/adwitiya/ros2_humble/install/rosidl_generator_c:/home/adwitiya/ros2_humble/install/rosidl_typesupport_interface:/home/adwitiya/ros2_humble/install/rosidl_generator_dds_idl:/home/adwitiya/ros2_humble/install/rosidl_cmake:/home/adwitiya/ros2_humble/install/rosidl_parser:/home/adwitiya/ros2_humble/install/rosidl_adapter:/home/adwitiya/ros2_humble/install/rosbag2_tests:/home/adwitiya/ros2_humble/install/rosbag2_storage_mcap_testdata:/home/adwitiya/ros2_humble/install/ros_environment:/home/adwitiya/ros2_humble/install/rmw_implementation_cmake:/home/adwitiya/ros2_humble/install/resource_retriever:/home/adwitiya/ros2_humble/install/class_loader:/home/adwitiya/ros2_humble/install/rcpputils:/home/adwitiya/ros2_humble/install/rcl_logging_noop:/home/adwitiya/ros2_humble/install/rcl_logging_interface:/home/adwitiya/ros2_humble/install/rcutils:/home/adwitiya/ros2_humble/install/qt_gui_py_common:/home/adwitiya/ros2_humble/install/qt_dotgraph:/home/adwitiya/ros2_humble/install/python_qt_binding:/home/adwitiya/ros2_humble/install/python_orocos_kdl_vendor:/home/adwitiya/ros2_humble/install/launch_testing_ament_cmake:/home/adwitiya/ros2_humble/install/python_cmake_module:/home/adwitiya/ros2_humble/install/pybind11_vendor:/home/adwitiya/ros2_humble/install/performance_test_fixture:/home/adwitiya/ros2_humble/install/osrf_testing_tools_cpp:/home/adwitiya/ros2_humble/install/orocos_kdl_vendor:/home/adwitiya/ros2_humble/install/mimick_vendor:/home/adwitiya/ros2_humble/install/libyaml_vendor:/home/adwitiya/ros2_humble/install/libcurl_vendor:/home/adwitiya/ros2_humble/install/keyboard_handler:/home/adwitiya/ros2_humble/install/cyclonedds:/home/adwitiya/ros2_humble/install/iceoryx_posh:/home/adwitiya/ros2_humble/install/iceoryx_hoofs:/home/adwitiya/ros2_humble/install/iceoryx_binding_c:/home/adwitiya/ros2_humble/install/ament_cmake_ros:/home/adwitiya/ros2_humble/install/ament_cmake_gmock:/home/adwitiya/ros2_humble/install/gmock_vendor:/home/adwitiya/ros2_humble/install/ament_cmake_auto:/home/adwitiya/ros2_humble/install/ament_cmake_gtest:/home/adwitiya/ros2_humble/install/gtest_vendor:/home/adwitiya/ros2_humble/install/ament_cmake_google_benchmark:/home/adwitiya/ros2_humble/install/google_benchmark_vendor:/home/adwitiya/ros2_humble/install/fastrtps:/home/adwitiya/ros2_humble/install/foonathan_memory_vendor:/home/adwitiya/ros2_humble/install/fastrtps_cmake_module:/home/adwitiya/ros2_humble/install/fastcdr:/home/adwitiya/ros2_humble/install/eigen3_cmake_module:/home/adwitiya/ros2_humble/install/console_bridge_vendor:/home/adwitiya/ros2_humble/install/ament_cmake_xmllint:/home/adwitiya/ros2_humble/install/ament_cmake_pyflakes:/home/adwitiya/ros2_humble/install/ament_cmake_pycodestyle:/home/adwitiya/ros2_humble/install/ament_cmake_pep257:/home/adwitiya/ros2_humble/install/ament_cmake_pclint:/home/adwitiya/ros2_humble/install/ament_lint_auto:/home/adwitiya/ros2_humble/install/ament_cmake:/home/adwitiya/ros2_humble/install/ament_cmake_version:/home/adwitiya/ros2_humble/install/ament_cmake_pytest:/home/adwitiya/ros2_humble/install/ament_cmake_nose:/home/adwitiya/ros2_humble/install/ament_cmake_mypy:/home/adwitiya/ros2_humble/install/ament_cmake_lint_cmake:/home/adwitiya/ros2_humble/install/ament_cmake_flake8:/home/adwitiya/ros2_humble/install/ament_cmake_cpplint:/home/adwitiya/ros2_humble/install/ament_cmake_cppcheck:/home/adwitiya/ros2_humble/install/ament_cmake_copyright:/home/adwitiya/ros2_humble/install/ament_cmake_clang_tidy:/home/adwitiya/ros2_humble/install/ament_cmake_clang_format:/home/adwitiya/ros2_humble/install/ament_cmake_test:/home/adwitiya/ros2_humble/install/ament_cmake_target_dependencies:/home/adwitiya/ros2_humble/install/ament_cmake_python:/home/adwitiya/ros2_humble/install/ament_cmake_export_dependencies:/home/adwitiya/ros2_humble/install/ament_cmake_libraries:/home/adwitiya/ros2_humble/install/ament_cmake_include_directories:/home/adwitiya/ros2_humble/install/ament_cmake_gen_version_h:/home/adwitiya/ros2_humble/install/ament_cmake_export_targets:/home/adwitiya/ros2_humble/install/ament_cmake_export_link_flags:/home/adwitiya/ros2_humble/install/ament_cmake_export_interfaces:/home/adwitiya/ros2_humble/install/ament_cmake_export_libraries:/home/adwitiya/ros2_humble/install/ament_cmake_export_include_directories:/home/adwitiya/ros2_humble/install/ament_cmake_export_definitions:/home/adwitiya/ros2_humble/install/ament_cmake_core:/home/adwitiya/ros2_humble/install/ament_index_cpp:/home/adwitiya/ros2_ws/install/my_robot_controller:/home/adwitiya/ros2_humble/install/rqt_bag_plugins:/home/adwitiya/ros2_humble/install/rqt_bag:/home/adwitiya/ros2_humble/install/ros2bag:/home/adwitiya/ros2_humble/install/tracetools_test:/home/adwitiya/ros2_humble/install/tracetools_launch:/home/adwitiya/ros2_humble/install/topic_monitor:/home/adwitiya/ros2_humble/install/tf2_tools:/home/adwitiya/ros2_humble/install/examples_tf2_py:/home/adwitiya/ros2_humble/install/tf2_ros_py:/home/adwitiya/ros2_humble/install/sros2:/home/adwitiya/ros2_humble/install/rqt_topic:/home/adwitiya/ros2_humble/install/rqt_srv:/home/adwitiya/ros2_humble/install/rqt_shell:/home/adwitiya/ros2_humble/install/rqt_service_caller:/home/adwitiya/ros2_humble/install/rqt_reconfigure:/home/adwitiya/ros2_humble/install/rqt_py_console:/home/adwitiya/ros2_humble/install/rqt_publisher:/home/adwitiya/ros2_humble/install/rqt_plot:/home/adwitiya/ros2_humble/install/rqt_action:/home/adwitiya/ros2_humble/install/rqt_msg:/home/adwitiya/ros2_humble/install/rqt_console:/home/adwitiya/ros2_humble/install/rqt:/home/adwitiya/ros2_humble/install/rqt_graph:/home/adwitiya/ros2_humble/install/rqt_gui_py:/home/adwitiya/ros2_humble/install/rqt_gui:/home/adwitiya/ros2_humble/install/ros2trace:/home/adwitiya/ros2_humble/install/ros2topic:/home/adwitiya/ros2_humble/install/ros2test:/home/adwitiya/ros2_humble/install/ros2component:/home/adwitiya/ros2_humble/install/ros2param:/home/adwitiya/ros2_humble/install/ros2lifecycle:/home/adwitiya/ros2_humble/install/ros2service:/home/adwitiya/ros2_humble/install/ros2run:/home/adwitiya/ros2_humble/install/ros2launch:/home/adwitiya/ros2_humble/install/ros2pkg:/home/adwitiya/ros2_humble/install/ros2node:/home/adwitiya/ros2_humble/install/ros2multicast:/home/adwitiya/ros2_humble/install/ros2interface:/home/adwitiya/ros2_humble/install/ros2doctor:/home/adwitiya/ros2_humble/install/ros2action:/home/adwitiya/ros2_humble/install/ros2cli:/home/adwitiya/ros2_humble/install/quality_of_service_demo_py:/home/adwitiya/ros2_humble/install/lifecycle_py:/home/adwitiya/ros2_humble/install/launch_testing_ros:/home/adwitiya/ros2_humble/install/launch_ros:/home/adwitiya/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/adwitiya/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/adwitiya/ros2_humble/install/examples_rclpy_minimal_service:/home/adwitiya/ros2_humble/install/examples_rclpy_minimal_publisher:/home/adwitiya/ros2_humble/install/examples_rclpy_minimal_client:/home/adwitiya/ros2_humble/install/examples_rclpy_minimal_action_server:/home/adwitiya/ros2_humble/install/examples_rclpy_minimal_action_client:/home/adwitiya/ros2_humble/install/examples_rclpy_guard_conditions:/home/adwitiya/ros2_humble/install/examples_rclpy_executors:/home/adwitiya/ros2_humble/install/demo_nodes_py:/home/adwitiya/ros2_humble/install/action_tutorials_py:/home/adwitiya/ros2_humble/install/ament_uncrustify:/home/adwitiya/ros2_humble/install/tracetools_trace:/home/adwitiya/ros2_humble/install/tracetools_read:/home/adwitiya/ros2_humble/install/test_tracetools_launch:/home/adwitiya/ros2_humble/install/test_launch_ros:/home/adwitiya/ros2_humble/install/sensor_msgs_py:/home/adwitiya/ros2_humble/install/rpyutils:/home/adwitiya/ros2_humble/install/rosidl_runtime_py:/home/adwitiya/ros2_humble/install/rosidl_cli:/home/adwitiya/ros2_humble/install/launch_pytest:/home/adwitiya/ros2_humble/install/launch_testing:/home/adwitiya/ros2_humble/install/launch_yaml:/home/adwitiya/ros2_humble/install/launch_xml:/home/adwitiya/ros2_humble/install/launch:/home/adwitiya/ros2_humble/install/osrf_pycommon:/home/adwitiya/ros2_humble/install/launch_testing_examples:/home/adwitiya/ros2_humble/install/domain_coordinator:/home/adwitiya/ros2_humble/install/ament_xmllint:/home/adwitiya/ros2_humble/install/ament_pyflakes:/home/adwitiya/ros2_humble/install/ament_pycodestyle:/home/adwitiya/ros2_humble/install/ament_pep257:/home/adwitiya/ros2_humble/install/ament_pclint:/home/adwitiya/ros2_humble/install/ament_package:/home/adwitiya/ros2_humble/install/ament_mypy:/home/adwitiya/ros2_humble/install/ament_lint_cmake:/home/adwitiya/ros2_humble/install/ament_flake8:/home/adwitiya/ros2_humble/install/ament_copyright:/home/adwitiya/ros2_humble/install/ament_lint:/home/adwitiya/ros2_humble/install/ament_index_python:/home/adwitiya/ros2_humble/install/ament_cpplint:/home/adwitiya/ros2_humble/install/ament_cppcheck:/home/adwitiya/ros2_humble/install/ament_clang_tidy:/home/adwitiya/ros2_humble/install/ament_clang_format LD_LIBRARY_PATH=/home/adwitiya/micro-ros/agent_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adwitiya/micro-ros/agent_ws/install/micro_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adwitiya/micro-ros/agent_ws/build/micro_ros_agent -- -j8 -l8
